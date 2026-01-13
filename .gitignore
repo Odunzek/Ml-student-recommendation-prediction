@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Model Files (Large Binary Files)
+*.pkl
+*.pickle
+*.h5
+*.model
+*.joblib
+*.pth
+*.ckpt
+
+# MLflow
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Reports/Outputs (optional - uncomment if you don't want to track these)
+# project/reports/*.html
+# project/reports/*.pdf
+# project/reports/*.png
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Documentation (optional - keep these commented out to track docs)
+# TEST_NOW.md
+# FINAL_STATUS.md
+
+# User-specific data
+predictions.db
+
+# Claude Code
+.claude/
+tmpclaude-*

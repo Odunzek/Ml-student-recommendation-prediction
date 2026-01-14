@@ -7,12 +7,15 @@ import matplotlib.pyplot as plt
 import sqlite3
 from datetime import datetime
 import io
+import os
 
 # ====================================================
 # CONFIG
 # ====================================================
-PIPELINE_PATH = "student_regression_pipeline.pkl"
-DB_PATH = "predictions.db"
+# Get the directory where this script is located
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PIPELINE_PATH = os.path.join(SCRIPT_DIR, "student_regression_pipeline.pkl")
+DB_PATH = os.path.join(SCRIPT_DIR, "predictions.db")
 
 st.set_page_config(
     page_title="Student Success Predictor",

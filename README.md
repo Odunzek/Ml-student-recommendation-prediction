@@ -290,4 +290,4 @@ If you use this project in your research or work, please cite:
 
 ---
 
-**Built with ❤️ for educational success**
+

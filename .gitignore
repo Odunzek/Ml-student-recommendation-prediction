@@ -33,6 +33,7 @@ env/
 
 # Model Files (Large Binary Files)
 *.pkl
+!project/dashboard/student_regression_pipeline.pkl
 *.pickle
 *.h5
 *.model
